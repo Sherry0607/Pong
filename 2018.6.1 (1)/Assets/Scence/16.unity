@@ -1238,7 +1238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NowLevel: Stage 16
-  Sprite: {fileID: 21300000, guid: 5e26ffe09a8a0b0438f12f93328bdd83, type: 3}
+  Sprite: {fileID: 21300000, guid: 832bbab890b783a4c8290b618f6f30ea, type: 3}
 --- !u!4 &670661764
 Transform:
   m_ObjectHideFlags: 0
