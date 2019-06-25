@@ -1,0 +1,57 @@
+{
+	"native": [{
+			"Ad_form": "EXIT",
+			"pid": "166558",
+			"defPri": "facebook",
+			"ad_type": 0
+		},
+		{
+			"Ad_form": "BANNER",
+			"pid": "166553",
+			"ambids": [
+				"ca-app-pub-2545528321907066/2925353228"
+			],
+			"defPri": "admobb",
+			"ad_type": 1
+		},
+		{
+			"Ad_form": "INTERSTITIAL",
+			"pid": "166556",
+			"amisids": [
+				"ca-app-pub-2545528321907066/4046863209"
+			],
+			"defPri": "admobis",
+			"ad_type": 2
+		}
+	],
+	"app_license": "7b48b8ce189191b8ce68234da7aee546",
+	"crab_key": "6b0bf7c14517c156",
+	"video": [{
+			"Ad_form": "VIDEO",
+			"pid": "166554",
+			"amid": "ca-app-pub-2545528321907066/5635277049",
+			"defPri": "admobv",
+			"ad_type": 3
+		},
+		{
+			"Ad_form": "NOTIFY",
+			"pid": "166555",
+			"amid": "ca-app-pub-2545528321907066/6070391314",
+			"defPri": "admobv",
+			"ad_type": 3
+		}
+	],
+	"native_fun": [{
+		"pid": "166559",
+		"defFun": "download_tp",
+		"ad_type": 0
+	}],
+	"full_screen_ad": {
+		"pid": "166557",
+		"amisids": [
+			"ca-app-pub-2545528321907066/4046863209"
+		],
+		"defPri": "admobis",
+		"ad_type": 2
+	}
+}
