@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 10491812}
   - component: {fileID: 10491810}
   - component: {fileID: 10491809}
-  - component: {fileID: 10491814}
+  - component: {fileID: 10491811}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -262,6 +262,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!60 &10491811
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10491807}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: 188.61996, y: 73.41043}
+      - {x: 194.91025, y: -74.81592}
+      - {x: -193.297, y: -75.41229}
+      - {x: 191.08307, y: 79.68201}
+      - {x: -184.1781, y: -69.44983}
 --- !u!114 &10491812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,27 +330,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10491807}
   m_CullTransparentMesh: 0
---- !u!50 &10491814
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10491807}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &17851721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,8 +1291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c86c16ca75c73349b9683666adbcb0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NowLevel: Stage 10
-  Sprite: {fileID: 21300000, guid: f0788b4945c175b4eb49e60ef9b91a61, type: 3}
+  NowLevel: Stage 24
+  Sprite: {fileID: 21300000, guid: b16ff13995b991c47a63f5ff6604dc2f, type: 3}
 --- !u!4 &670661764
 Transform:
   m_ObjectHideFlags: 0

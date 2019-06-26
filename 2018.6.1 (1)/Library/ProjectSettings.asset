@@ -247,7 +247,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/75211/Desktop/2018.6.1 (1)/yelee.keystore
+  AndroidKeystoreName: C:/Users/75211/Desktop/Pong/2018.6.1 (1)/yelee.keystore
   AndroidKeyaliasName: wzsc
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
