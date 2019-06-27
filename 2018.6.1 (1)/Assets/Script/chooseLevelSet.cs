@@ -24,6 +24,7 @@ public class chooseLevelSet : MonoBehaviour
             Aelement.Add(this .transform .GetChild(i).gameObject );
         }
 
+  
         SetText();
         NowFunc();
     }
@@ -51,7 +52,7 @@ public class chooseLevelSet : MonoBehaviour
                 Aelement[j].GetComponent<Button>().interactable = true;
                
                 Aelement[j].GetComponent<Image>().sprite = Open;
-           
+          
                 starCount.Add(PlayerPrefs.GetInt(PlayerPrefs.GetString("Level" +(j+1).ToString())));
                 print(starCount[j] + "   " + j);
                     switch (starCount [j])

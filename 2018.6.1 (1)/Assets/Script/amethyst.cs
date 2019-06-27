@@ -29,7 +29,7 @@ public class amethyst : MonoBehaviour
             {
 
             }
-            Destroy(this.gameObject,0.25f);
+            Destroy(this.gameObject,0.1f);
           
         }
 

@@ -277,8 +277,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -311.33, y: -16}
-  m_SizeDelta: {x: 2521.8, y: 83}
+  m_AnchoredPosition: {x: -270, y: -16}
+  m_SizeDelta: {x: 2187, y: 83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &150186662
 MonoBehaviour:
@@ -330,7 +330,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.013656616, y: 0.000061035156}
+  m_Offset: {x: -9.952515, y: 0.000061035156}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -341,7 +341,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 944.2156, y: 77.90367}
+  m_Size: {x: 2176.6428, y: 77.90367}
   m_EdgeRadius: 0
 --- !u!82 &150186665
 AudioSource:
@@ -856,7 +856,7 @@ MonoBehaviour:
   autoPlay: 1
   useTargetAsV3: 0
   endValueFloat: 0
-  endValueV3: {x: 0, y: 0, z: 5}
+  endValueV3: {x: 0, y: 0, z: -5}
   endValueV2: {x: 0, y: 0}
   endValueColor: {r: 1, g: 1, b: 1, a: 1}
   endValueString: 

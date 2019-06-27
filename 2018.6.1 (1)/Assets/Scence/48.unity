@@ -1812,8 +1812,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c86c16ca75c73349b9683666adbcb0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NowLevel: Stage 33
-  Sprite: {fileID: 21300000, guid: 07405ad8057685a418850c10a370dd52, type: 3}
+  NowLevel: Stage 48
+  Sprite: {fileID: 21300000, guid: 0296fa26d0595ea42a4f1faebbe0b390, type: 3}
 --- !u!4 &670661764
 Transform:
   m_ObjectHideFlags: 0
