@@ -73,7 +73,7 @@ public class BallForce : MonoBehaviour
         BallP.transform.GetChild(0).SetParent(GameObject.Find("bg").transform);
         TopBall.transform.GetChild(TopBall.transform.childCount - 1).SetParent(BallP.transform);
         BallP.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
-        BallP.transform.GetChild(0).localScale = new Vector3(1, 1, 1);
+        BallP.transform.GetChild(0).localScale = new Vector3(0.85f, 0.85f, 0.85f);
         //功能
         if (TopBall.transform.childCount !=0)
         {

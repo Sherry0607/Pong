@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.yeleegame.BallBang">
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.VIBRATE" />
     <application android:name="com.duapps.ad.UnityApp"
                  android:hardwareAccelerated="true" 
                  android:icon="@drawable/icon"
                  android:label="Throw a Pong">
         <meta-data android:name="applovin.sdk.key" android:value="caVmO7ZgwTVKiXAtMRwilQMDwd1qcCRDoy-A4Ts_6LKpuUgFxbyg1JuxxwmX6Bmu8l3CHwCNGWB8_tOxTKbUdU" />
-        <activity android:name="com.yeleegame.click.click.MainActivity" 
+        <activity android:name="com.unity3d.player.UnityPlayerActivity" 
                   android:label="@string/app_name" android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

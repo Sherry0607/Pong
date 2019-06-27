@@ -1,0 +1,24 @@
+diff a/2018.6.1 (1)/2018.6.1 (1).sln b/2018.6.1 (1)/2018.6.1 (1).sln	(rejected hunks)
+@@ -1,9 +1,19 @@
+ ﻿
+ Microsoft Visual Studio Solution File, Format Version 12.00
+-# Visual Studio 15
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{45B04F13-D381-F4E8-3944-129F54CB2E93}"
++# Visual Studio 2017
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2018.6.1 (1)", "2018.6.1 (1).csproj", "{905DC024-09E4-DC39-13C1-5F07A95786E7}"
+ EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{EEC32529-5A79-AAD7-2A23-914516DB313E}"
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{07A21C90-D344-AE1A-8456-9910C203B41A}"
++EndProject
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Analytics.DataPrivacy", "Unity.Analytics.DataPrivacy.csproj", "{D6E266C6-3D1F-28C8-9FEB-2A01E44DBF77}"
++EndProject
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PackageManagerUI.Editor", "Unity.PackageManagerUI.Editor.csproj", "{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}"
++EndProject
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro.Editor", "Unity.TextMeshPro.Editor.csproj", "{3A848AB7-9891-EDDA-D555-BF184C2F81F4}"
++EndProject
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.CollabProxy.Editor", "Unity.CollabProxy.Editor.csproj", "{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}"
++EndProject
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2018.6.1 (1).Editor", "2018.6.1 (1).Editor.csproj", "{DC654625-549A-2DC1-FE37-B6945FD77F84}"
+ EndProject
+ Global
+ 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

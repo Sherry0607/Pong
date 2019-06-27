@@ -524,8 +524,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13, y: -255.00003}
-  m_SizeDelta: {x: 276.5, y: 83}
+  m_AnchoredPosition: {x: 11.025, y: -255.00003}
+  m_SizeDelta: {x: 153.95, y: 83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &150186662
 MonoBehaviour:
@@ -577,7 +577,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.8416901, y: 0.000061035156}
+  m_Offset: {x: 0.8427658, y: 0.000061035156}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -588,7 +588,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 277.09683, y: 77.90367}
+  m_Size: {x: 153.5973, y: 77.90367}
   m_EdgeRadius: 0
 --- !u!82 &150186665
 AudioSource:
@@ -2641,7 +2641,7 @@ RectTransform:
   m_GameObject: {fileID: 1054640358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_Children: []
   m_Father: {fileID: 579327618}
   m_RootOrder: 0
@@ -2910,8 +2910,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -253}
-  m_SizeDelta: {x: 276.5, y: 83}
+  m_AnchoredPosition: {x: 5, y: -253}
+  m_SizeDelta: {x: 153.9, y: 83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1192212142
 MonoBehaviour:
@@ -3036,7 +3036,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.8416901, y: 0.000061035156}
+  m_Offset: {x: 0.84311676, y: 0.000061035156}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3047,7 +3047,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 277.09683, y: 77.90367}
+  m_Size: {x: 158.96556, y: 77.90367}
   m_EdgeRadius: 0
 --- !u!114 &1192212145
 MonoBehaviour:

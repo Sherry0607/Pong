@@ -5,15 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scence/start.unity
-    guid: 72b30e3e29b0c2548ae8964ce7fb9d08
-  - enabled: 1
-    path: Assets/Scence/Choose.unity
-    guid: 27ecc01dffddfe5428a913714017826f
   - enabled: 1
     path: Assets/Scence/1.unity
     guid: 4fa302b824a5e6b4880b68aba1e02a33
@@ -28,7 +19,7 @@ EditorBuildSettings:
     guid: e741bb8d07e6ba541ae6f9a8f2effb5d
   - enabled: 1
     path: Assets/Scence/5.unity
-    guid: 9191d526cb54ad944812e2daf61e9c3e
+    guid: b154dfaa28d18864aad9631ca541fb74
   - enabled: 1
     path: Assets/Scence/6.unity
     guid: 637a44e2e0ac80641913ffa03e2597c1
@@ -70,7 +61,7 @@ EditorBuildSettings:
     guid: a47f76d3ffe33024fa2fbe446dfa5a88
   - enabled: 1
     path: Assets/Scence/19.unity
-    guid: e4e42c3f852303c4d913bdd8dc9187bc
+    guid: 40fc7540033583a458930aa7f86b69c1
   - enabled: 1
     path: Assets/Scence/20.unity
     guid: 968c12c94bd08d648901572746056df5
@@ -104,4 +95,106 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scence/30.unity
     guid: 5a7337ba29db5fd4d911d1b6f8422502
+  - enabled: 1
+    path: Assets/Scence/31.unity
+    guid: 5377e1d4def64a14d94e085abee2fd1a
+  - enabled: 1
+    path: Assets/Scence/32.unity
+    guid: 2f527d6bff227234c8a7a6c4677a8cc4
+  - enabled: 1
+    path: Assets/Scence/33.unity
+    guid: a9e1b43b035f2124bad4988668239c88
+  - enabled: 1
+    path: Assets/Scence/34.unity
+    guid: 042e9a5e50370e146ac9151770c309c3
+  - enabled: 1
+    path: Assets/Scence/35.unity
+    guid: 8466cb2cb7be8474d9d06b7b76ff38e8
+  - enabled: 1
+    path: Assets/Scence/36.unity
+    guid: 5d1224043b2aed44ab1c30c47824d74f
+  - enabled: 1
+    path: Assets/Scence/37.unity
+    guid: 2059f6ba13699eb4ea7d169934148b34
+  - enabled: 1
+    path: Assets/Scence/38.unity
+    guid: 41cea3009a036d94ab0a97c1351c0da3
+  - enabled: 1
+    path: Assets/Scence/39.unity
+    guid: b32e01a947f6f7a42bb9b76c48cafd4d
+  - enabled: 1
+    path: Assets/Scence/40.unity
+    guid: 9c03442e70f4ccf41986024530d0b14b
+  - enabled: 1
+    path: Assets/Scence/41.unity
+    guid: 7bfc9c0f64da8464fb8c3fff5a6fc0ad
+  - enabled: 1
+    path: Assets/Scence/42.unity
+    guid: 33a871f0eb4617c4284f0811b774ca63
+  - enabled: 1
+    path: Assets/Scence/43.unity
+    guid: 78ab1a9a69e6b914abbb57d96f3c1aa2
+  - enabled: 1
+    path: Assets/Scence/44.unity
+    guid: 53dd35bce7339844d8f0f1920993b05d
+  - enabled: 1
+    path: Assets/Scence/45.unity
+    guid: 91e964a011c6cf643b1a8e993025bff7
+  - enabled: 1
+    path: Assets/Scence/46.unity
+    guid: 6d655a9cd3176c84ea050929b481c2e9
+  - enabled: 1
+    path: Assets/Scence/47.unity
+    guid: 2de102faaff469c42bc228f7bd427f10
+  - enabled: 1
+    path: Assets/Scence/48.unity
+    guid: 31a5aec12543a09449711fcb454eed58
+  - enabled: 1
+    path: Assets/Scence/49.unity
+    guid: 23a6c72cdc571c448bbda11746255f77
+  - enabled: 1
+    path: Assets/Scence/50.unity
+    guid: c6b5a0091960508448e1beb57df62bd0
+  - enabled: 1
+    path: Assets/Scence/51.unity
+    guid: 567324bd62c099840981fd55ead1083c
+  - enabled: 1
+    path: Assets/Scence/52.unity
+    guid: 1932098aa45d2ff42ac3904507555216
+  - enabled: 1
+    path: Assets/Scence/53.unity
+    guid: 4241fae1f8d42bf49be61e78b19c4e48
+  - enabled: 1
+    path: Assets/Scence/54.unity
+    guid: fa3ee2fd2d5442244b2c06d9cd2be94a
+  - enabled: 1
+    path: Assets/Scence/55.unity
+    guid: e4e42c3f852303c4d913bdd8dc9187bc
+  - enabled: 1
+    path: Assets/Scence/56.unity
+    guid: c98f8bdbcd576744ea2223b427832633
+  - enabled: 1
+    path: Assets/Scence/57.unity
+    guid: fbb875373d0f7a447887e77be6f9e195
+  - enabled: 1
+    path: Assets/Scence/58.unity
+    guid: e756447955e5851499cd6d317b216967
+  - enabled: 1
+    path: Assets/Scence/59.unity
+    guid: 86c51813c6473ae4a8cf5095df59abb4
+  - enabled: 1
+    path: Assets/Scence/60.unity
+    guid: db97c9700602c5849b1c8b1c3a6bc21c
+  - enabled: 1
+    path: Assets/Scence/62.unity
+    guid: 0ccf422055672cc41a1e97e0d3cdb105
+  - enabled: 1
+    path: Assets/Scence/89.unity
+    guid: 97254e0072d07544b97515aa1074fb03
+  - enabled: 1
+    path: Assets/Scence/Choose.unity
+    guid: 27ecc01dffddfe5428a913714017826f
+  - enabled: 1
+    path: Assets/Scence/start.unity
+    guid: 72b30e3e29b0c2548ae8964ce7fb9d08
   m_configObjects: {}

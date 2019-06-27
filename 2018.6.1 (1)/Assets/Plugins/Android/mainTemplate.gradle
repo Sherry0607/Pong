@@ -74,7 +74,7 @@ android {
     signingConfigs {
 
         release {
-            storeFile file('C:/Users/75211/Desktop/2018.6.1 (1)/yelee.keystore')
+            storeFile file('C:/Users/75211/Desktop/Pong/2018.6.1 (1)/yelee.keystore')
             storePassword '000000'
             keyAlias 'wzsc'
             keyPassword '000000'

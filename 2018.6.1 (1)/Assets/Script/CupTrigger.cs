@@ -41,10 +41,10 @@ public class CupTrigger : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
         int nextnum = int.Parse(scene.name)+1;
         //最大关卡数限制
-        if (nextnum ==11)
-        {
-            nextnum = 10;
-        }
+        //if (nextnum ==11)
+        //{
+        //    nextnum = 10;
+        //}
         Nextlevel = (nextnum).ToString();
         level = scene.name;
         isfallover = true;
