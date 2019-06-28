@@ -97,6 +97,7 @@ public class CupTrigger : MonoBehaviour
     //游戏胜利
     IEnumerator  Win()
     {
+        isfallover = false;
         back .SetActive(false);
         refresh.SetActive(false);
         BallP.transform.GetChild(0).GetComponent<Rigidbody2D>().sharedMaterial = null;
