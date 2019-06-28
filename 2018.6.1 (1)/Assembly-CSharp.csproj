@@ -60,7 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CupSwitch.cs" />
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
     <Compile Include="Assets\Library\AppRater.cs" />
     <Compile Include="Assets\Library\BannerAd.cs" />
@@ -88,6 +87,7 @@
     <Compile Include="Assets\Script\ButtonCloseFunc.cs" />
     <Compile Include="Assets\Script\chooseLevelSet.cs" />
     <Compile Include="Assets\Script\ColliderFunc.cs" />
+    <Compile Include="Assets\Script\CupSwitch.cs" />
     <Compile Include="Assets\Script\CupTrigger.cs" />
     <Compile Include="Assets\Script\failedTrigger.cs" />
     <Compile Include="Assets\Script\GameUIButton.cs" />

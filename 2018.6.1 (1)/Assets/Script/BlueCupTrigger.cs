@@ -61,13 +61,13 @@ public class BlueCupTrigger : MonoBehaviour
         {
             Destroy(BallP.transform.GetChild(0).gameObject);
             //父物体
-            TopBall.transform.GetChild(TopBall.transform.childCount - 1).SetParent(BallP.transform);
+            //TopBall.transform.GetChild(TopBall.transform.childCount - 1).SetParent(BallP.transform);
             yield return new WaitForEndOfFrame();
             //位置
-            BallP.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
-            BallP.transform.GetChild(0).localScale = new Vector3(1, 1, 1);
-            //功能
-            BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = true;
+            //BallP.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+            //BallP.transform.GetChild(0).localScale = new Vector3(1, 1, 1);
+            ////功能
+            //BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = true;
         }
         else
         {

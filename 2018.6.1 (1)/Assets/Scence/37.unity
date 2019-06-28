@@ -330,7 +330,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -14.837097, y: 0.000061035156}
+  m_Offset: {x: -5.7142334, y: 0.000061035156}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -341,7 +341,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2110.684, y: 77.90367}
+  m_Size: {x: 3578.557, y: 77.90367}
   m_EdgeRadius: 0
 --- !u!82 &150186665
 AudioSource:
@@ -2633,7 +2633,7 @@ PrefabInstance:
     - target: {fileID: 16186218651051492, guid: 852fe26195a225a409ef058f6e2a8666,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -223.00002
+      value: -234
       objectReference: {fileID: 0}
     - target: {fileID: 16186218651051492, guid: 852fe26195a225a409ef058f6e2a8666,
         type: 3}
@@ -3078,7 +3078,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.885498, y: 10.214415}
+  m_Offset: {x: -8.885498, y: 0.17687988}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3089,7 +3089,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 642.228, y: 98.33238}
+  m_Size: {x: 642.228, y: 78.257324}
   m_EdgeRadius: 0
 --- !u!114 &1415603173
 MonoBehaviour:
@@ -3542,7 +3542,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -14.837097, y: 0.000061035156}
+  m_Offset: {x: -17.83252, y: 0.000061035156}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3553,7 +3553,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2110.684, y: 77.90367}
+  m_Size: {x: 3578.3545, y: 77.90367}
   m_EdgeRadius: 0
 --- !u!114 &1547838789
 MonoBehaviour:
