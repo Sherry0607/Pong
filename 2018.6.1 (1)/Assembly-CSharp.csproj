@@ -89,6 +89,7 @@
     <Compile Include="Assets\Script\ColliderFunc.cs" />
     <Compile Include="Assets\Script\CupSwitch.cs" />
     <Compile Include="Assets\Script\CupTrigger.cs" />
+    <Compile Include="Assets\Script\DestoryWater.cs" />
     <Compile Include="Assets\Script\failedTrigger.cs" />
     <Compile Include="Assets\Script\GameUIButton.cs" />
     <Compile Include="Assets\Script\HelpBall.cs" />

@@ -70,7 +70,7 @@ public class BallForce : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = false;
-        BallP.transform.GetChild(0).SetParent(GameObject.Find("bg").transform);
+        BallP.transform.GetChild(0).SetParent(GameObject.Find("AbandonBall").transform);
         TopBall.transform.GetChild(TopBall.transform.childCount - 1).SetParent(BallP.transform);
         BallP.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
         BallP.transform.GetChild(0).localScale = new Vector3(0.85f, 0.85f, 0.85f);
@@ -82,6 +82,14 @@ public class BallForce : MonoBehaviour
         else
         {
             BallP.transform.GetChild(0).gameObject.SetActive(false);
+            yield return new WaitForSeconds(3f);
+            Debug.Log(GameObject.Find("Cub").GetComponent<CupTrigger>().isEnter+"是True？");
+            if (!GameObject.Find("Cub").GetComponent<CupTrigger>().isEnter)
+            {
+                Debug.Log("发球失败");
+                failedRe.SetActive(true);
+            }
+            
         }
     }
 

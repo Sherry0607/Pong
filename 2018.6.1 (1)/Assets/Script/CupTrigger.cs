@@ -20,12 +20,14 @@ public class CupTrigger : MonoBehaviour
     private GameObject back;
     private GameObject refresh;
     private GameObject failedRe;
-
-
+    private GameObject bg;
+    public bool isSwitch=true;
     public int AddBlue;
     private string level;
     private string Nextlevel;
     private bool isfallover;
+
+    public bool isEnter;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,11 +42,7 @@ public class CupTrigger : MonoBehaviour
         rightwater = waterP.Find("rightwater Variant").gameObject;
         Scene scene = SceneManager.GetActiveScene();
         int nextnum = int.Parse(scene.name)+1;
-        //最大关卡数限制
-        //if (nextnum ==11)
-        //{
-        //    nextnum = 10;
-        //}
+        bg = GameObject.Find("AbandonBall");
         Nextlevel = (nextnum).ToString();
         level = scene.name;
         isfallover = true;
@@ -73,7 +71,7 @@ public class CupTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
        
-        if (other .tag =="Ball")
+        if (other .tag =="Ball"&& isfallover)
         {
             if (PlayerPrefs.GetInt("music") == 1)
             {
@@ -84,7 +82,9 @@ public class CupTrigger : MonoBehaviour
 
             }
             isfallover = false;
+            isSwitch = false;
             //实例化水花
+            isEnter = true;
             Instantiate(water, waterP);
             StartCoroutine(Win());
             other.gameObject.GetComponent<BallForce>().enabled=false;
@@ -103,6 +103,7 @@ public class CupTrigger : MonoBehaviour
         BallP.transform.GetChild(0).GetComponent<Rigidbody2D>().sharedMaterial = null;
         BallP.transform.GetChild(0).GetComponent<CircleCollider2D>().sharedMaterial = null;
         yield return new WaitForSeconds(1f);
+        Destroy(bg.transform.GetChild(bg.transform.childCount - 1).gameObject);
         BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = false;
         WinUI.SetActive(true);
         starShow = GameObject.Find("StarBg");
