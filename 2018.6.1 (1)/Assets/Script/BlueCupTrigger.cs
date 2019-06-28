@@ -11,10 +11,12 @@ public class BlueCupTrigger : MonoBehaviour
     private GameObject BallP;
     private GameObject leftwater;
     private GameObject rightwater;
+    private GameObject bg;
     private bool isfallover;
     // Start is called before the first frame update
     void Start()
     {
+        bg=GameObject.Find("bg");
         TopBall = GameObject.Find("BallTop");
         failedRe = GameObject.Find("Canvas").transform.Find("failedRe").gameObject;
         BallP = GameObject.Find("BallP");
@@ -60,14 +62,14 @@ public class BlueCupTrigger : MonoBehaviour
         if (TopBall.transform.childCount > 1)
         {
             Destroy(BallP.transform.GetChild(0).gameObject);
-            //父物体
-            //TopBall.transform.GetChild(TopBall.transform.childCount - 1).SetParent(BallP.transform);
+           // 父物体
+            TopBall.transform.GetChild(TopBall.transform.childCount - 1).SetParent(BallP.transform);
             yield return new WaitForEndOfFrame();
-            //位置
-            //BallP.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
-            //BallP.transform.GetChild(0).localScale = new Vector3(1, 1, 1);
-            ////功能
-            //BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = true;
+           // 位置
+            BallP.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+            BallP.transform.GetChild(0).localScale = new Vector3(1, 1, 1);
+            //功能
+            BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = true;
         }
         else
         {
