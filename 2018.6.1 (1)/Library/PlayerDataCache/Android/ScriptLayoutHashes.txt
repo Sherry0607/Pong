@@ -3,7 +3,7 @@ PlayerPath?
 C:/Users/75211/Desktop/弹力小球/throw a pong.apk
 SceneListBegin?
 Assets/Scence/start.unity
-Assets/Scence/Choose.unity
+Assets/Scence/Choose-1.unity
 Assets/Scence/1.unity
 Assets/Scence/2.unity
 Assets/Scence/3.unity
@@ -181,6 +181,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DLVideoAdTest
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DestoryWater
 c206d07e741a993ce817bd4ccd2cbda9 Assembly-CSharp.dll:.BallForce
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -210,7 +211,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-35ecf8b8f41b599dbca40e5d856e23ce Assembly-CSharp.dll:.CupTrigger
+cd6550a1338aee91f73bf0dd9870b7c3 Assembly-CSharp.dll:.CupTrigger
 c61289c35a8b53148e2341775aba8a17 Assembly-CSharp.dll:.UIButton
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ShowADButton
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.InterstitialAdTest

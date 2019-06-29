@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scence/start.unity
     guid: 72b30e3e29b0c2548ae8964ce7fb9d08
   - enabled: 1
-    path: Assets/Scence/Choose.unity
+    path: Assets/Scence/Choose-1.unity
     guid: 27ecc01dffddfe5428a913714017826f
   - enabled: 1
     path: Assets/Scence/1.unity
