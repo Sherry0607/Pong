@@ -94,6 +94,7 @@
     <Compile Include="Assets\Script\GameUIButton.cs" />
     <Compile Include="Assets\Script\HelpBall.cs" />
     <Compile Include="Assets\Script\LoadAD.cs" />
+    <Compile Include="Assets\Script\MainChoose.cs" />
     <Compile Include="Assets\Script\NewBehaviourScript.cs" />
     <Compile Include="Assets\Script\OnEnbalePlay.cs" />
     <Compile Include="Assets\Script\RandomAni.cs" />

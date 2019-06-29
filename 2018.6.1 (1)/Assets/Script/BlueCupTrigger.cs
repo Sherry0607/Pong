@@ -50,6 +50,7 @@ public class BlueCupTrigger : MonoBehaviour
 
         if (other.tag == "Ball")
         {
+            print("进入蓝杯子");
             this.GetComponent<AudioSource>().Play();
             //实例化水花
             Instantiate(water, waterP);
@@ -61,7 +62,7 @@ public class BlueCupTrigger : MonoBehaviour
     }
     IEnumerator FailFunc()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         if (TopBall.transform.childCount >= 1)
         {
             Destroy(AbandonBall.transform.GetChild(AbandonBall.transform.childCount-1 ).gameObject);

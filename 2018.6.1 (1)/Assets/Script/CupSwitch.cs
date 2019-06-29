@@ -25,6 +25,7 @@ public class CupSwitch : MonoBehaviour
         {
             red.SetActive(false);
             transform.GetChild(0).transform.GetChild(2).GetComponent<CupTrigger>().enabled = false;
+
             blue.SetActive(true);
             Invoke("DelayBlueTrue",0.5f);
             if (!transform.GetChild(0).transform.GetChild(2).GetComponent<CupTrigger>().isSwitch)
@@ -37,6 +38,7 @@ public class CupSwitch : MonoBehaviour
         {
             blue.SetActive(false);
             transform.GetChild(1).transform.GetChild(2).GetComponent<BlueCupTrigger>().enabled = false;
+          
             red.SetActive(true);
             Invoke("DelayRedTrue",0.5f);
             if (!transform.GetChild(0).transform.GetChild(2).GetComponent<CupTrigger>().isSwitch)
@@ -50,12 +52,16 @@ public class CupSwitch : MonoBehaviour
 
     void DelayRedTrue()
     {
+ 
         red.GetComponent<CupTrigger>().enabled = true;
+       
     }
 
     void DelayBlueTrue()
     {
+       
         blue.GetComponent<BlueCupTrigger>().enabled = true;
+        
     }
 
     // Update is called once per frame

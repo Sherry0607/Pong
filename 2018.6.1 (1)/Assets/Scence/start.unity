@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.9528302, b: 0.8314792, a: 1}
+  m_Color: {r: 0.9716981, g: 0.9426446, b: 0.85711104, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -829,7 +829,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1085e0f8ffaed6e4eacce7960ecff706, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cac34b76a5a201a489d9ea923495b7de, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1368,12 +1368,12 @@ GameObject:
   - component: {fileID: 1115811781}
   - component: {fileID: 1115811784}
   m_Layer: 5
-  m_Name: Button
+  m_Name: 'zhendong '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1115811780
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1661,8 +1661,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100.905, y: -620.75}
-  m_SizeDelta: {x: 130.5, y: 126.3}
+  m_AnchoredPosition: {x: 99.836, y: -606.3}
+  m_SizeDelta: {x: 93.362, y: 90.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136925012
 MonoBehaviour:
@@ -1737,7 +1737,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4d4b89eeef375ec489a4ce3ba84c88b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d0bb933e45986da478b9312b0df61115, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2153,7 +2153,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: eb33d31eccf92e14b807579a698cee8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d858b8384eb28a48a7933db77c86ad3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2281,7 +2281,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4e5273b72a793d54ea6a56e8e458ec39, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 22a4a319cb2908f4a939c3593fcba8dc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2563,7 +2563,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: cbdca217fd6319a4c86f94b409b68407, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b64c6a604d33ed24d9980a514703f7d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2638,7 +2638,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 91b038946b28cb24ea314a72346e44ab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 024d294d6708cca4aae894693e4b5a70, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -69,7 +69,7 @@ public class BallForce : MonoBehaviour
     IEnumerator Birth()
     {
         BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = false;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
        
         BallP.transform.GetChild(0).SetParent(GameObject.Find("AbandonBall").transform);
         TopBall.transform.GetChild(TopBall.transform.childCount - 1).SetParent(BallP.transform);

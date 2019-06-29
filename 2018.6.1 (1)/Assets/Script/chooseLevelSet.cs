@@ -24,9 +24,11 @@ public class chooseLevelSet : MonoBehaviour
             Aelement.Add(this .transform .GetChild(i).gameObject );
         }
 
-  
-        SetText();
-        NowFunc();
+        Scene scene = SceneManager.GetActiveScene();
+        string[] name=scene.name.Split('-');
+        print(scene.name + "          name");
+        SetText(int.Parse(name[1])-1);
+        NowFunc(int.Parse(name [1])-1);
     }
 
     // Update is called once per frame
@@ -40,7 +42,7 @@ public class chooseLevelSet : MonoBehaviour
         SceneManager.LoadScene(num);
     }
 
-    void NowFunc()
+    void NowFunc(int index)
     {
         string arriveLevel = PlayerPrefs.GetString("Level","1");
         int arriveNum = int.Parse(arriveLevel);
@@ -53,7 +55,7 @@ public class chooseLevelSet : MonoBehaviour
                
                 Aelement[j].GetComponent<Image>().sprite = Open;
           
-                starCount.Add(PlayerPrefs.GetInt(PlayerPrefs.GetString("Level" +(j+1).ToString())));
+                starCount.Add(PlayerPrefs.GetInt(PlayerPrefs.GetString("Level" +((j+1)+index*30).ToString())));
                 print(starCount[j] + "   " + j);
                     switch (starCount [j])
                     {
@@ -90,11 +92,11 @@ public class chooseLevelSet : MonoBehaviour
     }
 
 
-    void SetText()
+    void SetText(int index)
     {
         for (int i = 0; i < Aelement.Count; i++)
         {
-            Aelement[i].transform.GetChild(0).GetComponent<Text>().text = (i+1).ToString();
+            Aelement[i].transform.GetChild(0).GetComponent<Text>().text = ((i+1)+index*30).ToString();
         }
     }
 

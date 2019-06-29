@@ -75,6 +75,7 @@ public class CupTrigger : MonoBehaviour
        
         if (other .tag =="Ball"&& isfallover)
         {
+            print("进入黄杯子");
             if (PlayerPrefs.GetInt("music") == 1)
             {
                 this.GetComponent<AudioSource>().Play();
@@ -104,7 +105,8 @@ public class CupTrigger : MonoBehaviour
         refresh.SetActive(false);
         BallP.transform.GetChild(0).GetComponent<Rigidbody2D>().sharedMaterial = null;
         BallP.transform.GetChild(0).GetComponent<CircleCollider2D>().sharedMaterial = null;
-        yield return new WaitForSeconds(1f);
+        
+        yield return new WaitForSeconds(0.5f);
         Destroy(bg.transform.GetChild(bg.transform.childCount - 1).gameObject);
         BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = false;
         WinUI.SetActive(true);

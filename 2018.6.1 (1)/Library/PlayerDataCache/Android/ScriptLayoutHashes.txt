@@ -3,7 +3,10 @@ PlayerPath?
 C:/Users/75211/Desktop/弹力小球/throw a pong.apk
 SceneListBegin?
 Assets/Scence/start.unity
+Assets/Scence/Choose.unity
 Assets/Scence/Choose-1.unity
+Assets/Scence/Choose-2.unity
+Assets/Scence/Choose-3.unity
 Assets/Scence/1.unity
 Assets/Scence/2.unity
 Assets/Scence/3.unity
@@ -280,3 +283,4 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.VideoAdTest
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ButtonCloseFunc
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MainChoose
