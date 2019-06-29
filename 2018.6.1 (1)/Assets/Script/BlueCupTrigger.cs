@@ -13,6 +13,8 @@ public class BlueCupTrigger : MonoBehaviour
     private GameObject rightwater;
     private GameObject AbandonBall;
     private bool isfallover;
+
+    public bool isEnter;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,7 +53,7 @@ public class BlueCupTrigger : MonoBehaviour
             this.GetComponent<AudioSource>().Play();
             //实例化水花
             Instantiate(water, waterP);
-
+            isEnter = true;
             StartCoroutine(FailFunc());
             
         }
@@ -62,7 +64,8 @@ public class BlueCupTrigger : MonoBehaviour
         yield return new WaitForSeconds(1f);
         if (TopBall.transform.childCount >= 1)
         {
-            Destroy(AbandonBall.transform.GetChild(0).gameObject);
+            Destroy(AbandonBall.transform.GetChild(AbandonBall.transform.childCount-1 ).gameObject);
+            isEnter = false;
             //Destroy(AbandonBall.transform.GetChild(AbandonBall.transform.childCount).gameObject);
             //// 父物体
             //TopBall.transform.GetChild(TopBall.transform.childCount - 1).SetParent(BallP.transform);
@@ -77,7 +80,8 @@ public class BlueCupTrigger : MonoBehaviour
         {
             Debug.Log("失败");
             failedRe.SetActive(true);
-            Destroy(AbandonBall.transform.GetChild(0).gameObject);
+            Destroy(AbandonBall.transform.GetChild(AbandonBall.transform.childCount-1).gameObject);
+            isEnter = false;
         }
 
     }

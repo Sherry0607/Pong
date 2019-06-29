@@ -58,6 +58,7 @@ public class CupTrigger : MonoBehaviour
              rightwater.SetActive(true);
             failedRe.SetActive(true);
             isfallover = false;
+            BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = false;
         }
         //左
         if (transform.rotation.eulerAngles.z >180 && transform.rotation.eulerAngles.z < 320&&isfallover)
@@ -65,6 +66,7 @@ public class CupTrigger : MonoBehaviour
             leftwater.SetActive(true);
             failedRe.SetActive(true);
             isfallover = false;
+            BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = false;
         }
     }
 

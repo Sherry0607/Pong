@@ -982,7 +982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: -54}
+  m_AnchoredPosition: {x: 314, y: -30}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &579327619
@@ -1554,7 +1554,7 @@ PrefabInstance:
     - target: {fileID: 6722730226969637849, guid: de305a1a31652424baf09c0a26830579,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6722730226969637849, guid: de305a1a31652424baf09c0a26830579,
         type: 3}
@@ -2452,14 +2452,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9607843, g: 0.9491449, b: 0.8745098, a: 1}
+  m_Color: {r: 0.9254902, g: 0.8745098, b: 0.7647059, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d42c1471f981cd546a0567b0cebb4d40, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3932,6 +3932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 16186219085299715, guid: 852fe26195a225a409ef058f6e2a8666,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 852fe26195a225a409ef058f6e2a8666, type: 3}
@@ -13770,7 +13775,7 @@ GameObject:
   - component: {fileID: 6740068976143901934}
   - component: {fileID: 2116112054444723640}
   m_Layer: 5
-  m_Name: Cub
+  m_Name: BCub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13847,6 +13852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   water: {fileID: 7321120340473517837, guid: 435fd5d8f298dc04194d8ec3d0a215ae, type: 3}
   waterP: {fileID: 6740068975256023225}
+  isEnter: 0
 --- !u!82 &6740068976143901935
 AudioSource:
   m_ObjectHideFlags: 0

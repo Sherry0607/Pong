@@ -68,8 +68,9 @@ public class BallForce : MonoBehaviour
 
     IEnumerator Birth()
     {
-        yield return new WaitForSeconds(1f);
         BallP.transform.GetChild(0).GetComponent<BallForce>().enabled = false;
+        yield return new WaitForSeconds(1f);
+       
         BallP.transform.GetChild(0).SetParent(GameObject.Find("AbandonBall").transform);
         TopBall.transform.GetChild(TopBall.transform.childCount - 1).SetParent(BallP.transform);
         BallP.transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
@@ -83,13 +84,21 @@ public class BallForce : MonoBehaviour
         {
             BallP.transform.GetChild(0).gameObject.SetActive(false);
             yield return new WaitForSeconds(3f);
-            Debug.Log(GameObject.Find("Cub").GetComponent<CupTrigger>().isEnter+"是True？");
-            if (!GameObject.Find("Cub").GetComponent<CupTrigger>().isEnter)
+            if (GameObject.Find("Cub")==null)
             {
-                Debug.Log("发球失败");
+                if (!GameObject.Find("BCub").GetComponent<BlueCupTrigger>().isEnter)
+                {
+                    failedRe.SetActive(true);
+                }
+                //if (!GameObject.Find("Cub").GetComponent<CupTrigger>().isEnter)
+                //{
+                //    failedRe.SetActive(true);
+                //}
+            }
+            else if (!GameObject.Find("Cub").GetComponent<CupTrigger>().isEnter)
+            {
                 failedRe.SetActive(true);
             }
-            
         }
     }
 

@@ -15,32 +15,47 @@ public class CupSwitch : MonoBehaviour
         blue = this.transform.GetChild(1).gameObject;
         blue.SetActive(false);
         InvokeRepeating("Switch", 1f, 3f);
+
     }
 
     public void Switch()
     {
-      
+
         if (!blue.active)
         {
             red.SetActive(false);
-            blue .SetActive(true );
-            if (!transform .GetChild(0).GetComponent<CupTrigger>().isSwitch)
+            transform.GetChild(0).transform.GetChild(2).GetComponent<CupTrigger>().enabled = false;
+            blue.SetActive(true);
+            Invoke("DelayBlueTrue",0.5f);
+            if (!transform.GetChild(0).transform.GetChild(2).GetComponent<CupTrigger>().isSwitch)
             {
                 blue.GetComponent<BlueCupTrigger>().enabled = false;
             }
-            
+
         }
         else
         {
             blue.SetActive(false);
+            transform.GetChild(1).transform.GetChild(2).GetComponent<BlueCupTrigger>().enabled = false;
             red.SetActive(true);
-            if (!transform.GetChild(0).GetComponent<CupTrigger>().isSwitch)
+            Invoke("DelayRedTrue",0.5f);
+            if (!transform.GetChild(0).transform.GetChild(2).GetComponent<CupTrigger>().isSwitch)
             {
                 blue.GetComponent<BlueCupTrigger>().enabled = false;
             }
 
         }
 
+    }
+
+    void DelayRedTrue()
+    {
+        red.GetComponent<CupTrigger>().enabled = true;
+    }
+
+    void DelayBlueTrue()
+    {
+        blue.GetComponent<BlueCupTrigger>().enabled = true;
     }
 
     // Update is called once per frame

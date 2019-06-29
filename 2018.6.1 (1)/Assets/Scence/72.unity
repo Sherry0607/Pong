@@ -962,7 +962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxForce: 400
-  parent: {fileID: 0}
+  parent: {fileID: 632620049}
   prefab: {fileID: 2409148247199246535, guid: 0ddfd55ebfae26945976f120b483f8e3, type: 3}
   TextEffect: {fileID: 5836779008976846345, guid: cd57f8cf7e9fe5a4085158af86388a46,
     type: 3}
@@ -1052,7 +1052,7 @@ PrefabInstance:
     - target: {fileID: 6722730226969637849, guid: de305a1a31652424baf09c0a26830579,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6722730226969637849, guid: de305a1a31652424baf09c0a26830579,
         type: 3}
@@ -5192,7 +5192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxForce: 400
-  parent: {fileID: 0}
+  parent: {fileID: 632620049}
   prefab: {fileID: 2409148247199246535, guid: 0ddfd55ebfae26945976f120b483f8e3, type: 3}
   TextEffect: {fileID: 5836779008976846345, guid: cd57f8cf7e9fe5a4085158af86388a46,
     type: 3}
@@ -5892,7 +5892,7 @@ PrefabInstance:
     - target: {fileID: 6740068975256316946, guid: 827de14dafb2bd24298316ad68bd976a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6740068975256316946, guid: 827de14dafb2bd24298316ad68bd976a,
         type: 3}
@@ -6828,7 +6828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxForce: 400
-  parent: {fileID: 0}
+  parent: {fileID: 632620049}
   prefab: {fileID: 2409148247199246535, guid: 0ddfd55ebfae26945976f120b483f8e3, type: 3}
   TextEffect: {fileID: 5836779008976846345, guid: cd57f8cf7e9fe5a4085158af86388a46,
     type: 3}
@@ -7441,7 +7441,7 @@ PrefabInstance:
     - target: {fileID: 6740068975256316946, guid: 827de14dafb2bd24298316ad68bd976a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6740068975256316946, guid: 827de14dafb2bd24298316ad68bd976a,
         type: 3}
@@ -9146,7 +9146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxForce: 400
-  parent: {fileID: 0}
+  parent: {fileID: 632620049}
   prefab: {fileID: 2409148247199246535, guid: 0ddfd55ebfae26945976f120b483f8e3, type: 3}
   TextEffect: {fileID: 5836779008976846345, guid: cd57f8cf7e9fe5a4085158af86388a46,
     type: 3}
@@ -12265,7 +12265,7 @@ PrefabInstance:
     - target: {fileID: 6740068975256316946, guid: 827de14dafb2bd24298316ad68bd976a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6740068975256316946, guid: 827de14dafb2bd24298316ad68bd976a,
         type: 3}
@@ -13225,7 +13225,7 @@ PrefabInstance:
     - target: {fileID: 6740068975256316946, guid: 827de14dafb2bd24298316ad68bd976a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6740068975256316946, guid: 827de14dafb2bd24298316ad68bd976a,
         type: 3}
