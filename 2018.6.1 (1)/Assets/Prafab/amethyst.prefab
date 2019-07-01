@@ -136,6 +136,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e3deb58b2c043f4882ba53669fcfd25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  childNum: 5
+  amethystlist:
+  - {fileID: 8300000, guid: fa5ffe5a854fbcf4aaa60f9c9983e17e, type: 3}
+  - {fileID: 8300000, guid: 36aa58cba7c8e4940af90e2dc1e28939, type: 3}
+  - {fileID: 8300000, guid: 3618cff36f1a3af4fa092baf6bb340d4, type: 3}
+  - {fileID: 8300000, guid: 05f258dbbb4336449b9d09515ffee292, type: 3}
+  - {fileID: 8300000, guid: b4867ead1a15c0a488af2038a72ffcad, type: 3}
+  parent: {fileID: 0}
 --- !u!82 &194453486022290983
 AudioSource:
   m_ObjectHideFlags: 0
